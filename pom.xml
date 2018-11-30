@@ -41,12 +41,30 @@
 			<version>2.0.17</version>
 			<classifier>shaded</classifier>
 		</dependency>
+
 		<!-- Any SLF4J comaptible logging framework. -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.0.13</version>
 		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.jhlabs/filters -->
+		<dependency>
+			<groupId>com.jhlabs</groupId>
+			<artifactId>filters</artifactId>
+			<version>2.0.235-1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.java.net.substance/substance -->
+		<dependency>
+			<groupId>org.java.net.substance</groupId>
+			<artifactId>substance</artifactId>
+			<version>6.0</version>
+		</dependency>
+
+
 
 
 	</dependencies>
